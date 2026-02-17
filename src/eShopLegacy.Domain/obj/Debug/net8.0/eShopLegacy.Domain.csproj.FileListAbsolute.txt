@@ -1,0 +1,12 @@
+/modernize-data/studio-data/TNT1001/APP1468/transformed-code/496/studio-workspace/DotnetWebform/src/eShopLegacy.Domain/bin/Debug/net8.0/eShopLegacy.Domain.deps.json
+/modernize-data/studio-data/TNT1001/APP1468/transformed-code/496/studio-workspace/DotnetWebform/src/eShopLegacy.Domain/bin/Debug/net8.0/eShopLegacy.Domain.dll
+/modernize-data/studio-data/TNT1001/APP1468/transformed-code/496/studio-workspace/DotnetWebform/src/eShopLegacy.Domain/bin/Debug/net8.0/eShopLegacy.Domain.pdb
+/modernize-data/studio-data/TNT1001/APP1468/transformed-code/496/studio-workspace/DotnetWebform/src/eShopLegacy.Domain/obj/Debug/net8.0/eShopLegacy.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/modernize-data/studio-data/TNT1001/APP1468/transformed-code/496/studio-workspace/DotnetWebform/src/eShopLegacy.Domain/obj/Debug/net8.0/eShopLegacy.Domain.AssemblyInfoInputs.cache
+/modernize-data/studio-data/TNT1001/APP1468/transformed-code/496/studio-workspace/DotnetWebform/src/eShopLegacy.Domain/obj/Debug/net8.0/eShopLegacy.Domain.AssemblyInfo.cs
+/modernize-data/studio-data/TNT1001/APP1468/transformed-code/496/studio-workspace/DotnetWebform/src/eShopLegacy.Domain/obj/Debug/net8.0/eShopLegacy.Domain.csproj.CoreCompileInputs.cache
+/modernize-data/studio-data/TNT1001/APP1468/transformed-code/496/studio-workspace/DotnetWebform/src/eShopLegacy.Domain/obj/Debug/net8.0/eShopLegacy.Domain.sourcelink.json
+/modernize-data/studio-data/TNT1001/APP1468/transformed-code/496/studio-workspace/DotnetWebform/src/eShopLegacy.Domain/obj/Debug/net8.0/eShopLegacy.Domain.dll
+/modernize-data/studio-data/TNT1001/APP1468/transformed-code/496/studio-workspace/DotnetWebform/src/eShopLegacy.Domain/obj/Debug/net8.0/refint/eShopLegacy.Domain.dll
+/modernize-data/studio-data/TNT1001/APP1468/transformed-code/496/studio-workspace/DotnetWebform/src/eShopLegacy.Domain/obj/Debug/net8.0/eShopLegacy.Domain.pdb
+/modernize-data/studio-data/TNT1001/APP1468/transformed-code/496/studio-workspace/DotnetWebform/src/eShopLegacy.Domain/obj/Debug/net8.0/ref/eShopLegacy.Domain.dll
