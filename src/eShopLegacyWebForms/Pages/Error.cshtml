@@ -1,0 +1,16 @@
+@page
+@model eShopLegacyWebForms.Pages.ErrorModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1 class="esh-body-title">Error</h1>
+
+<p>An error occurred while processing your request.</p>
+
+@if (Model?.ErrorMessage != null)
+{
+    <div class="alert alert-danger">
+        <p>@Model.ErrorMessage</p>
+    </div>
+}

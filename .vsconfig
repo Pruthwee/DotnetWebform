@@ -71,6 +71,8 @@
     "Microsoft.VisualStudio.Workload.Azure",
     "Microsoft.VisualStudio.Component.ManagedDesktop.Prerequisites",
     "Microsoft.VisualStudio.Component.Debugger.JustInTime",
-    "Microsoft.VisualStudio.Workload.ManagedDesktop"
+    "Microsoft.VisualStudio.Workload.ManagedDesktop",
+    "Microsoft.Net.Component.8.0.TargetingPack",
+    "Microsoft.Net.Component.8.0.SDK"
   ]
 }

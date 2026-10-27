@@ -1,0 +1,78 @@
+@page
+@model eShopLegacyWebForms.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="esh-table">
+    <p class="esh-link-wrapper">
+        <a href="/Catalog/Create" class="btn esh-button esh-button-primary">
+            Create New
+        </a>
+    </p>
+
+    <table class="table">
+        <thead>
+            <tr class="esh-table-header">
+                <th></th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Brand</th>
+                <th>Type</th>
+                <th>Price</th>
+                <th>Picture name</th>
+                <th>Stock</th>
+                <th>Restock</th>
+                <th>Max stock</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>
+                        <image class="esh-thumbnail" src='/Pics/@item.PictureFileName' />
+                    </td>
+                    <td>
+                        <p>@item.Name</p>
+                    </td>
+                    <td>
+                        <p>@item.Description</p>
+                    </td>
+                    <td>
+                        <p>@item.CatalogBrand?.Brand</p>
+                    </td>
+                    <td>
+                        <p>@item.CatalogType?.Type</p>
+                    </td>
+                    <td>
+                        <p><span class="esh-price">@item.Price</span></p>
+                    </td>
+                    <td>
+                        <p>@item.PictureFileName</p>
+                    </td>
+                    <td>
+                        <p>@item.AvailableStock</p>
+                    </td>
+                    <td>
+                        <p>@item.RestockThreshold</p>
+                    </td>
+                    <td>
+                        <p>@item.MaxStockThreshold</p>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="esh-pagination">
+        @if (Model.Paginated.ActualPage > 0)
+        {
+            <a href="/?index=@(Model.Paginated.ActualPage - 1)&size=@Model.Paginated.ItemsPerPage" class="esh-pager-item">Previous</a>
+        }
+        @if (Model.Paginated.ActualPage < Model.Paginated.TotalPages - 1)
+        {
+            <a href="/?index=@(Model.Paginated.ActualPage + 1)&size=@Model.Paginated.ItemsPerPage" class="esh-pager-item">Next</a>
+        }
+    </div>
+</div>
